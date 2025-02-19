@@ -21,8 +21,6 @@ function love.update(dt)
     end
 end
 
-
-
 function love.draw()
     player.draw()  -- Draw the player
     for _, block in ipairs(blocks) do
