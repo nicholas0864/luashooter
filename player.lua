@@ -38,15 +38,15 @@ function player.update(dt, blocks)
 
     player.x = player.x + dx
     player.y = player.y + dy
-
-    -- Update bullets
+    
     for i = #player.bullets, 1, -1 do
         local bullet = player.bullets[i]
-        bullet:update(dt)
+        bullet:update(dt, blocks)  -- Pass the blocks list
         if bullet:isOffScreen() then
             table.remove(player.bullets, i)
         end
     end
+    
 
     -- Handle shooting with mouse
     player.timeSinceLastShot = player.timeSinceLastShot + dt
