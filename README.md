@@ -15,8 +15,8 @@ This is a simple game built using **Love2D**, where a player-controlled characte
 ### Steps to Run
 1. Download or clone this repository:
    ```sh
-   git clone https://github.com/yourusername/love2d-collision-game.git
-   cd love2d-collision-game
+   git clone https://github.com/yourusername/luashooter.git
+   cd love2d-luashooter
    ```
 2. Run the game using Love2D:
    ```sh
@@ -34,11 +34,14 @@ This is a simple game built using **Love2D**, where a player-controlled characte
 │-- player.lua       # Player logic and movement
 │-- block.lua        # Block movement and collision detection
 │-- conf.lua         # Love2D configuration (optional)
+|--bullet.lua        # Bullet logic and collision/ricocet
 │-- README.md        # This file
 ```
 
 ## Future Improvements
 - Add more block types with different behaviors
+- Enemies
+- More maps
 - Implement score tracking and objectives
 - Improve physics for smoother interactions
 
