@@ -8,7 +8,7 @@ local blocks = {}
 
 function love.load()
     -- Initialize the player here (optional if defaults are fine)
-    player.init(400, 300, 50, 50, 200)  -- x, y, width, height, speed
+    player.init(400, 300, 25, 25, 200)  -- x, y, width, height, speed
     table.insert(blocks, Block:new(200, 200, 50, 50, 100, 0))  -- Moving block
     table.insert(blocks, Block:new(100, 100, 100, 100, 0, 100))  -- Moving block
     table.insert(blocks, Block:new(300, 300, 50, 50))  -- Static block
