@@ -1,4 +1,4 @@
-# Love2D Collision Game
+# Love2D Shooter Game
 
 This is a simple game built using **Love2D**, where a player-controlled character moves around the screen and interacts with moving blocks. The game includes collision detection to prevent the player from passing through blocks and ensures that moving blocks push the player instead of letting them slide through.
 
